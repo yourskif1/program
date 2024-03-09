@@ -14,6 +14,7 @@ int main()
 
     std::cout << std::endl;
     ShowBack(str);
+    std::cout << std::endl;
 
 
 
@@ -44,6 +45,8 @@ void ShowBack(const char* str)
         std::cout << *str;
         str--; // Переміщаємо вказівник на один символ назад
     }
+        std::cout << std::endl;
+
 }
 
 int CountLenght(const char* str)
